@@ -1,8 +1,8 @@
 package org.example;
 
 public class Radio {
-  private int currentVolume;
-  private int currentRadioStation;
+    private int currentVolume;
+    private int currentRadioStation;
 
     public void increaseVolume() {
         if (currentVolume < 100) {
@@ -10,7 +10,7 @@ public class Radio {
         }
     }
 
-    public void setCurrentRadioStation(int newCurrentRadioStation){
+    public void setCurrentRadioStation(int newCurrentRadioStation) {
         if (newCurrentRadioStation > 9) {
             return;
         }
