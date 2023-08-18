@@ -7,6 +7,7 @@ public class Radio {
     public void next() {
         if (currentStation != 9) {
             currentStation++;
+            return;
         }
         currentStation = 0;
     }
