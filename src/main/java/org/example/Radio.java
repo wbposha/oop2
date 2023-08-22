@@ -2,7 +2,7 @@ package org.example;
 
 public class Radio {
     private int currentStation;
-    public int currentVolume;
+    private int currentVolume;
 
     public void next() {
         if (currentStation != 9) {
